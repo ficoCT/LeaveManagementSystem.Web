@@ -8,9 +8,11 @@ using Microsoft.EntityFrameworkCore;
 using LeaveManagementSystem.Web.Data;
 using AutoMapper;
 using LeaveManagementSystem.Web.Models.LeaveTypes;
+using System.Data;
 
 namespace LeaveManagementSystem.Web.Controllers
 {
+    [Authorize(Roles = Roles.Administrator)]
     public class LeaveTypesController : Controller
     {
         private readonly ApplicationDbContext _context;
