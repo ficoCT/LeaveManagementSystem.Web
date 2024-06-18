@@ -1,5 +1,5 @@
 using LeaveManagementSystem.Web.Data;
-using LeaveManagementSystem.Web.Services;
+using LeaveManagementSystem.Web.Services.LeaveTypes;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
